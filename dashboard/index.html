@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotDashboard - Discord</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grid-bg"></div>
+
+    <header>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="icon">🤖</span> BotDashboard
+        </div>
+
+        <h4>dashboard</h4>
+        <div class="user-menu">
+            <!-- Bouton de connexion Discord - remplace TON_CLIENT_ID et redirect_uri par tes valeurs réelles -->
+            <a id="discord-login" class="btn-discord" href="https://discord.com/api/oauth2/authorize?client_id=1457787688517374022&redirect_uri=http%3A%2F%2Ftonsite.com%2Fdis.php&response_type=code&scope=identify%20email">
+                Se connecter avec Discord
+            </a>
+        </div>
+    </nav>
+    </header>
+
+    <main class="hero">
+        <div class="announcement">
+            <span>✨</span> Nouveau: Module Économie disponible
+        </div>
+
+        <h1>Le bot Discord <br> <span class="gradient-text">tout-en-un</span></h1>
+
+        <p class="description">
+            Modération, économie, tickets, niveaux et plus encore.<br>
+            Configurez tout depuis un dashboard moderne et intuitif.
+        </p>
+
+        <div class="cta-buttons">
+            <a href="#" class="btn-primary">Ajouter à Discord <span>→</span></a>
+            <a href="decouvrir.html" class="btn-secondary">Découvrir</a>
+        </div>
+    </main>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <span class="stat-value">99.9%</span>
+            <span class="stat-label">Uptime</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value">
+                < 50ms</span>
+                    <span class="stat-label">Latence</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value">24/7</span>
+            <span class="stat-label">Support</span>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
